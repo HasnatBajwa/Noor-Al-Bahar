@@ -1,0 +1,22 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow: #FCA311;
+    --silver: #E5E5E5;
+}
+#footer{
+    background-color: var(--black);
+    margin-top: 25px;
+
+}
+.fhead{
+    color: var(--yellow);
+    text-align: center;
+
+}
+.fdes{
+    color: var(--silver);
+    text-align: center;
+    font-weight: bolder;
+}

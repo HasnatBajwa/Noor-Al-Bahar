@@ -1,0 +1,13 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow:#FCA311;
+    --silver:#E5E5E5;
+}
+#header{
+    background-color: var(--yellow);
+    color: var(--black);
+font-weight: bold;
+text-align: center;
+}

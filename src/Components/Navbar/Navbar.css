@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow:#FCA311;
+    --silver:#E5E5E5;
+}
+#navbar{
+    background-color: var(--black);
+    /* color: var(--yellow); */
+    position: sticky;
+}
+h3{
+    color:var(--silver);
+}
+.navbtn{
+    background: none;
+    background-color: var(--black);
+    color: var(--yellow);
+    font-size: large;
+    font-weight: bolder;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+.navbtn:hover{
+    text-decoration: underline;
+    background-color: var(--yellow);
+    color: var(--black);
+}

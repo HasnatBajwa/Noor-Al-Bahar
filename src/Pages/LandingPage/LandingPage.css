@@ -1,0 +1,85 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow: #FCA311;
+    --silver: #E5E5E5;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+#landingpage {
+
+    background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
+}
+
+.txt {
+    margin-top: 100px;
+    color: var(--blue);
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px var(--yellow);
+    -webkit-animation: fadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeIn 3s; /* Firefox < 16 */
+     -ms-animation: fadeIn 3s; /* Internet Explorer */
+      -o-animation: fadeIn 3s; /* Opera < 12.1 */
+         animation: fadeIn 3s;
+         animation-delay: 0.0001s;
+}
+
+.btn {
+    background: none;
+    background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
+    color: var(--blue);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: var(--silver);
+    color: var(--yellow);
+}
+
+img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pdesc{
+    font-size: large;
+    font-weight: bold;
+    color: var(--blue);
+    text-align: center;
+}
+.products{
+    background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
+    border-radius: 5px;
+}
+.whatsapp{
+    width:15%;
+}
+.cd{
+    background-color: var(--blue);
+    margin-top: 5px;
+    border-radius: 5px;
+    width:100% ;
+}
+#company{
+    color: var(--yellow);
+    text-align: center;
+    padding: 50px;
+}
+#cdes{
+    color: var(--silver);
+    font-size: large;
+    text-align: center;
+    padding: 40px;
+    
+}
