@@ -59,7 +59,7 @@ img {
     text-align: center;
 }
 .products{
-    background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
+    /* background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5); */
     border-radius: 5px;
 }
 .whatsapp{
@@ -83,3 +83,4 @@ img {
     padding: 40px;
     
 }
+

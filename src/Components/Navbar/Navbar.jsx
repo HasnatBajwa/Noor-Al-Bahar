@@ -5,10 +5,10 @@ const Navbar = () =>{
     return(
         <div className="container-fluid" id='navbar'>
             <div className="row">
-                <div className="col-7">
-                  <Link to="/"><h3>Noor Al Bahar</h3></Link>  
+                <div className="col-md-7 col-xs-12">
+                  <Link className='nab' to="/"><h3 id='nab'>Noor Al Bahar</h3></Link>  
                 </div>
-                <div className="col-5">
+                <div className="col-md-5 col-xs-12">
                    <Link to="/"><button className='navbtn'>Home</button></Link> 
                    <Link to="/Services"><button className='navbtn'>Services</button></Link> 
                    <Link to="/Contact"><button className='navbtn'>Contact</button></Link> 

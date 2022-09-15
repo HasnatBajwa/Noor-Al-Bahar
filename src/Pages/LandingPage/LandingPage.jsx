@@ -27,14 +27,14 @@ const LandingPage = () => {
                     <h2 className='txt'>Deals In</h2>
                 </div>
                 <div className="row">
-                    <div className="col-6 products">
+                    <div className="col-md-6 col-xs-12 products">
                         <img src={Sealed} alt="sealed" />
                         <p className='pdesc'>All Types of Sealed Compressors</p>
                         <a href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
 
 
                     </div>
-                    <div className="col-6 products">
+                    <div className="col-md-6 col-xs-12 products">
                         <img src={SemiSealed} alt="semisealed" /><br /><br /><br /><br />
                         <p className='pdesc'>All Types of Semi-Sealed Compressors</p>
                         <a href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
@@ -44,10 +44,10 @@ const LandingPage = () => {
             </div>
             <div className="container-fluid cd">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-md-6 col-xs-12">
                             <img src={NAB} alt="Company Logo" />
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-6 col-xs-12">
                             <h1 id='company'>
             
                                 Our Company
