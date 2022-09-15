@@ -1,0 +1,52 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow: #FCA311;
+    --silver: #E5E5E5;
+}
+
+.userinput {
+    border-radius: 2px;
+    background-color: var(--silver);
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.h2 {
+    color: var(--blue);
+}
+
+.input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--blue);
+    color: var(--silver);
+}
+
+input::placeholder {
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+#btn {
+    border: none;
+    width: 100%;
+    background-color: var(--yellow);
+    color: var(--blue);
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.maps{
+    text-align: center;
+    margin: 10px;
+    color: var(--yellow);
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 10px;
+}
