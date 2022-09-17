@@ -1,0 +1,33 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow: #FCA311;
+    --silver: #E5E5E5;
+}
+.title{
+    margin-top: 2px;
+    text-align: center;
+    color: var(--yellow);
+    background-color: var(--blue);
+}
+.companies{
+    background-color: var(--yellow);
+    color: var(--black);
+    text-align: center;
+}
+/* .imgs{
+   background-color: var(--silver);
+   margin: 5px;
+   border-style: initial;
+} */
+img{
+    margin-top: 50px;
+    width: 50%;
+}
+#clogo{
+    width: 40%;
+}
+.clogo{
+    background-color: var(--blue);
+}
