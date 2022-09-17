@@ -30,14 +30,14 @@ const LandingPage = () => {
                     <div className="col-md-6 col-xs-12 products">
                         <img src={Sealed} alt="sealed" />
                         <p className='pdesc'>All Types of Sealed Compressors</p>
-                        <a href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
+                        <a rel='norefferer' target='_blank' href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
 
 
                     </div>
                     <div className="col-md-6 col-xs-12 products">
                         <img src={SemiSealed} alt="semisealed" /><br /><br /><br /><br />
                         <p className='pdesc'>All Types of Semi-Sealed Compressors</p>
-                        <a href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
+                        <a rel='norefferer' target='_blank' href="https://api.whatsapp.com/send?phone=971508988451"><img src={Whatsapp} alt="whatsapp" title='click to chat!' className='whatsapp' /></a>
                     </div>
                 </div>
                 {/* Company Description */}
