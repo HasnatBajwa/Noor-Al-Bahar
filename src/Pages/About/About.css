@@ -1,0 +1,44 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #14213D;
+    --yellow: #FCA311;
+    --silver: #E5E5E5;
+}
+#about{
+    background-color: var(--blue);
+    padding: 20px;
+}
+.h{
+   color: var(--yellow);
+   text-align: center;
+}
+.p{
+    color: var(--silver);
+    text-align: justify;
+    font-size: large;
+}
+#btn{
+    background: none;
+    background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
+    color: var(--blue);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+#btn:hover {
+    text-decoration: underline;
+    background-color: var(--silver);
+    color: var(--yellow);
+}
+.warehouse{
+    background-color: var(--silver);
+    color: var(--blue);
+    padding: 20px;
+}
+.whi{
+    width: 100%;
+}
