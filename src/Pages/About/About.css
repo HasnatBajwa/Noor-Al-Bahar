@@ -5,20 +5,24 @@
     --yellow: #FCA311;
     --silver: #E5E5E5;
 }
-#about{
+
+#about {
     background-color: var(--blue);
     padding: 20px;
 }
-.h{
-   color: var(--yellow);
-   text-align: center;
+
+.h {
+    color: var(--yellow);
+    text-align: center;
 }
-.p{
+
+.p {
     color: var(--silver);
     text-align: justify;
     font-size: large;
 }
-#btn{
+
+#btn {
     background: none;
     background-image: linear-gradient(to right, #ffffff, #f1cb8e, #E5E5E5);
     color: var(--blue);
@@ -29,16 +33,27 @@
     border-radius: 5px;
     border: none;
 }
+
 #btn:hover {
     text-decoration: underline;
     background-color: var(--silver);
     color: var(--yellow);
 }
-.warehouse{
+
+.warehouse {
     background-color: var(--silver);
     color: var(--blue);
     padding: 20px;
 }
-.whi{
+.whi:hover{
+    transform: scale(2);
+}
+
+.whi {
     width: 100%;
+    transition: transform .2s;
+}
+#whi{
+    width: 100%;
+
 }

@@ -43,7 +43,7 @@ const About = () =>{
             </div>
             <div className="row warehouse">
                 <div className="col-md-12 col-xs-12">
-                    <img src={s3} alt="s3" className="whi" />
+                    <img src={s3} alt="s3" id='whi' />
                 </div>
                 <div className="col-md-3 col-xs-12">
                     <img src={s1} alt="s1" className='whi'/>
