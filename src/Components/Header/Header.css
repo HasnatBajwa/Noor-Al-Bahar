@@ -6,8 +6,8 @@
     --silver:#E5E5E5;
 }
 #header{
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: var(--blue);
+    color: var(--silver);
 font-weight: bold;
 text-align: center;
 }
