@@ -6,14 +6,14 @@
     --silver: #E5E5E5;
 }
 .title{
-    margin-top: 2px;
+    /* margin-top: 2px; */
     text-align: center;
-    color: var(--yellow);
+    color: var(--silver);
     background-color: var(--blue);
 }
 .companies{
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--silver);
     text-align: center;
 }
 /* .imgs{

@@ -32,7 +32,7 @@ const Contact = () => {
                         <div className="col-md-6 col-xs-12 userinput">
                             <h2 className="h2">Our Contacts</h2>
                             <p><b>Email: </b>nooralbahar.shj@gmail.com</p>
-                            <p><b>Phone: </b>+971-50-8988451 | +971-50-6777487</p>
+                            <p><b>Phone: </b>+971-50-8988451 | +971-50-6777427</p>
                             <p><b> Or Whatsapp us By Clicking Here !</b></p>
                             <a rel='norefferer' target='_blank' href="https://api.whatsapp.com/send?phone=971508988451"><img src={whatsapp} alt="whatsapp" id='whatsapp' title='click to chat!' /></a>
 

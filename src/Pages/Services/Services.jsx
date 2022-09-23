@@ -21,7 +21,8 @@ const Services = () => {
             <Navbar />
             <div className="container-fluid" id='services'>
                 <div className="row title">
-                    <h1>We Deal in All Types of Compressors</h1>
+                    <h1>Our Services</h1>
+                    <h2>We Deal in All Types of Compressors</h2>
                 </div>
                 <div className="row companies">
                     <h3>Companies We Deal in</h3>

@@ -29,7 +29,7 @@ const About = () =>{
                 <h1 className='h'>Who Are We?</h1>
                 <p className='p'>We are the largest importer and exporter of all kinds of Second-Hand Air Conditioning Compressors
                    <br /> We can cater all your Queries against air Conditioning Compressors.
-                   <br /> With one of the larg
+                   <br /> With one of the largest Supply Network We Can Provide you Second-Hand Used Compressors of any type and Company.
                 </p>
                 <h2 className='h'> Our Goal</h2>
                 <p className='p'>From House-Hold to Office, from Factories to Corporate Sector, we Provide Air-Conditioning Compressors so that your environment stays chill under all circumstances at an affordable cost. <br />
